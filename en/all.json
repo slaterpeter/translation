@@ -1,7 +1,8 @@
 {
   "LANGUAGE": {
     "LANGUAGE_WORD": "Language",
-    "TRANSLATION_INFO_SETTINGS": "Translation is still in progress.<br>You can help us, by reading the <guideLink>tutorial</guideLink> and then using our <editorLink>web editor</editorLink>."
+    "TRANSLATION_INFO_SETTINGS": "Translation is still in progress.<br>You can help us, by reading the <guideLink>tutorial</guideLink> and then using our <editorLink>web editor</editorLink>.",
+    "TRANSLATION_IN_PROGRESS": "Translation is still in progress.<br>You can help us, by reading the <guideLink>tutorial</guideLink> and then using our <editorLink>web editor</editorLink>."
   },
   "COMMON": {
     "ACTIONS": {
@@ -64,7 +65,12 @@
       "PRIVACY": {
         "TITLE": "Privacy",
         "KEYWORDS": "privacy"
-      }
+      },
+      "PROFILE_KEYWORDS": "Personal User Profile",
+      "EXPORT_IMPORT_KEYWORDS": "Export Backup Export Roam Dynalist Logseq Notion Evernote Obsidian",
+      "NAVIGATION_KEYWORDS": "Export and Backup Trash View Deleted Rem Import Knowledge Base View All Cards  Download a Daily Backup Advanced Settings Delete All Rem",
+      "AUTHENTICATION_KEYWORDS": "Logout Log out Google Login Method Add Disconnect Sign In Sign Up",
+      "ADVANCED_KEYWORDS": "Support Rewire Search Fix Bug"
     },
     "FLASHCARDS": {
       "DAILY_TARGET": {
@@ -275,7 +281,6 @@
         "LABEL": "Show tips on keyboard shortcuts you're currently using in the corner of the screen.",
         "KEYWORDS": "tooltips help support learn tutorial"
       },
-
       "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
         "TITLE": "Community Document Search Language",
         "KEYWORDS": "language community documents search"
@@ -390,9 +395,9 @@
     "TURN_OFF_AUTO_APPLY": "Turn off Auto-Apply",
     "VIEW_CONFIGURATION": "Configure Tag",
     "HIDE_CONFIGURATION": "Hide Configuration",
-    "PROPERTIES_HELP_TEXT": [
-      "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
-    ],
+    "PROPERTIES_HELP_TEXT": {
+      "0": "Properties describe a tag. For example, for a tag called \"Book\", add properties named Author, Genre, Reading Status, and more!"
+    },
     "TEMPLATES_HELP_TEXT": "A tag's template is a RemNote document that can be automatically copied to tagged Rems. Add headers, checklists, and more right within your template.",
     "AUTO_APPLY_HELP_TEXT": "This template will be automatically applied to all rows in its table, or all Rems tagged with the template."
   },
@@ -595,6 +600,22 @@
         "todo_for_the_item_below": "move this into a global feature name object?",
         "FEATURE_NAME": "PDF Highlighting"
       }
+    }
+  },
+  "COMMUNITY_NOTIFICATIONS": {
+    "INVITE": {
+      "BODY": "has invited you to join",
+      "ACCEPT": "Accept Invite",
+      "REJECT": "Reject"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "followed you"
+    },
+    "NEW_LIKE": {
+      "BODY": "liked"
+    },
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "was added to"
     }
   }
 }

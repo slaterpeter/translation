@@ -65,7 +65,11 @@
       "PRIVACY": {
         "TITLE": "Privacidade",
         "KEYWORDS": "privacidade"
-      }
+      },
+      "PROFILE_KEYWORDS": "Perfil de Usuário Pessoal",
+      "EXPORT_IMPORT_KEYWORDS": "Exportar Backup Exportar Roam Dynalist Logseq Notion Evernote Obsidian",
+      "AUTHENTICATION_KEYWORDS": "Sair Log out Google Login Método Adicionar Disconectar Entrar Cadastrar",
+      "ADVANCED_KEYWORDS": "Suporte Refazer Pesquisa Consertar Bug"
     },
     "FLASHCARDS": {
       "DAILY_TARGET": {
@@ -266,9 +270,14 @@
         "LABEL": "Mostre dicas sobre os recursos do RemNote na parte superior do seu documento.",
         "KEYWORDS": "dicas ajuda suporte aprender tutorial"
       },
-      "ONBOARDING_TIPS": {
+      "ONBOARDING_TIPS_FEATURES": {
         "TITLE": "Dicas de Integração",
-        "LABEL": "Mostrar dicas sobre os recursos do RemNote que você está usando no canto da tela.",
+        "LABEL": "Exibir dicas sobre as funcionalidades do RemNote que você está utilizando atualmente no canto da tela.",
+        "KEYWORDS": "dicas ajuda suporte aprender tutorial"
+      },
+      "ONBOARDING_TIPS_SHORTCUTS": {
+        "TITLE": "Dicas de Atalhos de Teclado",
+        "LABEL": "Mostrar dicas sobre os atalhos de teclado que você está usando atualmente no canto da tela.\n",
         "KEYWORDS": "dicas ajuda suporte aprender tutorial"
       },
       "COMMUNITY_DOCUMENT_SEARCH_LANGUAGE": {
@@ -278,6 +287,10 @@
       "INTERFACE": {
         "TITLE": "Idioma da interface do RemNote",
         "KEYWORDS": "idioma idioma tradução i18n"
+      },
+      "ONBOARDING_TIPS": {
+        "LABEL": "Mostrar dicas sobre os recursos do RemNote que você está usando no canto da tela.",
+        "KEYWORDS": "dicas ajuda suporte aprender tutorial"
       }
     },
     "EDITOR_INTERFACE": {
@@ -590,6 +603,22 @@
         "todo_for_the_item_below": "mover isso para um objeto nome de recurso global?",
         "FEATURE_NAME": "Grifos de PDF"
       }
+    }
+  },
+  "COMMUNITY_NOTIFICATIONS": {
+    "INVITE": {
+      "BODY": "convidou você para se juntar a",
+      "ACCEPT": "Aceitar Convite",
+      "REJECT": "Rejeitar"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "seguiu você"
+    },
+    "NEW_LIKE": {
+      "BODY": "curtido"
+    },
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "adicionado a"
     }
   }
 }
